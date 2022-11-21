@@ -7,6 +7,10 @@
 body {
     background-color: #d7b5d1;
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .header {
@@ -17,10 +21,15 @@ body {
     background-image: url("https://media.tenor.com/W7_-7TlRWcgAAAAC/glitter-cloud.gif");
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: flex-end;
 }
 
 .header h1 {
-    display: inline-block;
+    /* display: inline-block; */
     font-size: 48px;
 }
 
@@ -122,58 +131,8 @@ p {
     color: #ffffff;
 }
 
-.deployed {
-    /*margin-right: 20px;*/
-    /*padding: 30px;*/
-    /*clear: both;*/
-    /*float: left;*/
-    /*width: 20%;*/
-    /*height: 100%;*/
-    /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
-    /*background-color: #793e5b;*/
-    /*color: white;*/
-    /*font-weight: lighter;*/
-}
-
-.deployed h2 h3 {
-    /*padding: 10px;*/
-    /*text-align: center;*/
-    /*margin-bottom: 20px;*/
-    /*float: center;*/
-    /*text-justify: newspaper;*/
-    /*font-size: small;*/
-    /*font-weight: lighter;*/
-}
-
-.deployed-images {
-    /*margin-bottom: 32px;*/
-    /*color: #ffffff;*/
-    /*float: center;*/
-    /*text-align: center;*/
-    /*font-size: small;*/
-    /*font-weight: lighter;*/
-    /*image-rendering: optimizeQuality;*/
-}
-
-.deployed-images img {
-    /*display: center;*/
-    /*margin: 10px auto;*/
-    /*max-width: 150px;*/
-    /*float: center;*/
-    /*text-align: center;*/
-    /*font-size: small;*/
-    /*font-weight: lighter;*/
-}
-
-footer {
-    /*padding: 30px;*/
-    /*clear: both;*/
-    /*font-family: fantasy;*/
-    /*text-align: center;*/
-}
-
-footer h2 {
-    /*font-size: 20px;*/
+#main-content {
+    display: flex;
 }
 
 #left-nav {
