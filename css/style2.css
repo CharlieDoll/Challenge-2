@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    /* padding: 0; */
+    margin: 0;
+}
+
+
+body {
+    background-color: #d7b5d1;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("https://media.tenor.com/W7_-7TlRWcgAAAAC/glitter-cloud.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+.header nav ul {
+    display: flex;
+    list-style: none;
+    list-style-type: none;
+}
+
+.header nav ul li {
+    margin: 10px;
+}
+
+.header h1 seo {
+    color: #f9f6f6;
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+@media screen and (max-width: 700px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header nav ul {
+        flex-direction: column;
+    }
+}
+
+img {
+    /* width: 25%;
+    display: inline; */
+}
+
+a {
+    color: #060606;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+.content-links {
+    display: flex;
+    flex-direction: wrap;
+    /* margin-bottom: 20px; */
+    font-size: 36px;
+    margin-bottom: 20px;
+    padding: 60px;
+    height: 500px;
+    font-family: fantasy;
+    background-color: #793e5b;
+    color: #ffffff;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+}
+
+.content-links h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.content-links h3 {
+    display: flex;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.content-links img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 300px;
+    padding: 20px;
+}
+
+.content-links p {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#left-nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+    width: 250px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    color: white;
+
+    background-color: #793e5b;
+}
+
+#left-nav img {
+    display: flex;
+    height: 200px;
+    max-width: 250px;
+}
+
+.left-nav-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-nav-items {
+    display: flex;
+    padding: 10px;
+}
